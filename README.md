@@ -5,12 +5,14 @@ Programa de consola que hace las cuatro operaciones básicas: suma, resta, multi
 Cómo ejecutarlo
 bash
 python3 calculadora.py
+
 Cómo correr las pruebas y el linter
 bash
 pip install -r requirements-dev.txt
 black --check calculadora.py test_calculadora.py
 flake8 calculadora.py test_calculadora.py
 pytest -v
+
 Prácticas de calidad aplicadas
 
 1. Linter y formateador (black + flake8)
